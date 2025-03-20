@@ -1,0 +1,1 @@
+web: gunicorn flight_tracker:app --bind 0.0.0.0:$PORT
